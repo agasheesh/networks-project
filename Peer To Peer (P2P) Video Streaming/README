@@ -1,0 +1,13 @@
+**********************************Peer to Peer to Video Streaming*********************************
+You need to run two files:
+
+To start tracker:
+	./tracker.o <port>
+
+To start client:
+	./ptpvs.o <ip_of_tracker> <port_of_tracker>
+
+To compile streamserver.c you will need vlc library.
+You are on your own now! Choose the desired options from the client menu.
+***************************************************************************************************
+
